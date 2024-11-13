@@ -53,8 +53,6 @@ async function handleClick(event) {
 
 async function handleLoadMore(event) {
     event.preventDefault(); 
-    scrollTopBtn.style.display = 'block';
-
     loadMore.disabled = true;
 
     page += 1;
