@@ -70,13 +70,12 @@ button:hover {
     display: none;
 }
 
-.load-more {
+.js-load-more {
     display: inline-block;
+    width: 125px;
     padding: 10px 20px;
-    font-size: 1.2em;
-    font-weight: bold;
+    margin-bottom: 20px;
     text-align: center;
-    text-transform: uppercase;
     border: none;
     border-radius: 5px;
     background-color: #007bff;
@@ -85,9 +84,8 @@ button:hover {
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
-.load-more:hover {
+.js-load-more:hover {
     background-color: #0056b3;
-    transform: scale(1.05);
 }
 
 .gallery {
