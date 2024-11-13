@@ -14,21 +14,21 @@
     <title>Image Gallery Project</title>
   </head>
   <body>
-    <div class="input-container">
+    <form class="searching-form" autocomplete="off">
       <input
         class="search-field"
-        type="email"
-        name="email"
+        type="text"
+        name="search"
         placeholder="Search images ..."
       />
       <button type="submit">Search</button>
-    </div>
+    </form>
 
     <span class="loader-icon-container"></span>
 
     <ul class="gallery"></ul>
-    <div class="button-container">
-      <button class="js-load-more load-more-hidden">Load More</button>
+    <div class="button-container load-more-hidden">
+      <button class="js-load-more">Load More</button>
     </div>
 
     <script type="module" src="./main.js"></script>
