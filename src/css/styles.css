@@ -6,7 +6,7 @@
 body {
     margin: 0 auto;
 
-    padding: 50px 250px 0 250px ;
+    padding: 50px 250px 40px  250px ;
     font-family: "Montserrat", sans-serif;
         font-size: 16px;
         font-weight: 400;
@@ -28,11 +28,10 @@ img {
             
 }
 
-.input-container {
+.searching-form {
     display: flex;
     justify-content: center;
     gap: 8px
-
 }
 
 input{
@@ -63,7 +62,7 @@ button:hover {
     justify-content: center;
     align-items: center;
 
-    margin-top: 20px;
+    
 }
 
 .load-more-hidden {
@@ -74,7 +73,7 @@ button:hover {
     display: inline-block;
     width: 125px;
     padding: 10px 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
     text-align: center;
     border: none;
     border-radius: 5px;
